@@ -1,0 +1,17 @@
+{
+  "description": "Block whole-file Figma JSON fetches; point Claude at figma-pick instead",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|mcp__.*get_figma_data",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 -I -S \"${CLAUDE_PLUGIN_ROOT}/hooks/guard.py\"",
+            "timeout": 5
+          }
+        ]
+      }
+    ]
+  }
+}

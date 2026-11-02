@@ -1,0 +1,13 @@
+{
+  "name": "figma-pick",
+  "version": "0.1.0",
+  "description": "Exact CSS for just the Figma elements you name. Renders the frame once, then pulls only the requested elements instead of the whole page's JSON.",
+  "author": {
+    "name": "Shobhit Gupta",
+    "url": "https://github.com/shobhitg"
+  },
+  "homepage": "https://github.com/shobhitg/figma-pick",
+  "repository": "https://github.com/shobhitg/figma-pick",
+  "license": "MIT",
+  "keywords": ["figma", "css", "design", "design-to-code", "tokens"]
+}

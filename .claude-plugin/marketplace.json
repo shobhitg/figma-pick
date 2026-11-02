@@ -1,0 +1,15 @@
+{
+  "name": "figma-pick",
+  "description": "figma-pick: exact CSS for just the Figma elements you name",
+  "owner": {
+    "name": "Shobhit Gupta",
+    "url": "https://github.com/shobhitg"
+  },
+  "plugins": [
+    {
+      "name": "figma-pick",
+      "source": "./",
+      "description": "Exact CSS for just the Figma elements you name, instead of the whole page's JSON or a full-page screenshot."
+    }
+  ]
+}
