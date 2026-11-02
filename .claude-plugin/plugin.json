@@ -1,6 +1,6 @@
 {
   "name": "figma-pick",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exact CSS for just the Figma elements you name. Renders the frame once, then pulls only the requested elements instead of the whole page's JSON.",
   "author": {
     "name": "Shobhit Gupta",

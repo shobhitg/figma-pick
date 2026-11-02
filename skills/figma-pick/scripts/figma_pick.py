@@ -36,7 +36,7 @@ try:
 except ImportError:  # Windows: no cross-process lock; at worst a duplicate read
     fcntl = None
 
-VERSION = "0.1.0"
+VERSION = "0.1.1"
 API = "https://api.figma.com/v1"
 CACHE = Path(os.environ.get("FIGMA_PICK_CACHE", "~/.cache/figma-pick")).expanduser()
 META_FRESH_S = 60  # version checks are cheap (rate-limit Tier 3) but not free
